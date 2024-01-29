@@ -1,0 +1,19 @@
+{
+  "name": "cse341-project2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saulmacflores/cse341-project2.git"
+  },
+  "author": "saul flores",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saulmacflores/cse341-project2/issues"
+  },
+  "homepage": "https://github.com/saulmacflores/cse341-project2#readme"
+}
