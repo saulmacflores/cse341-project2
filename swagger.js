@@ -5,8 +5,8 @@ const doc = {
         title: 'Players Api',
         description: 'Players Api'
     },
-    host: '://project2-thzj.onrender.com',
-    schemes: ['https']
+    host: 'https://project2-thzj.onrender.com',
+    //schemes: ['https']
 };
 
 const outputFile = './swagger.json';
