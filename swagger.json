@@ -5,7 +5,7 @@
     "description": "Players Api",
     "version": "1.0.0"
   },
-  "host": "://project2-thzj.onrender.com",
+  "host": ":project2-thzj.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
