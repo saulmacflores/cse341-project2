@@ -22,7 +22,7 @@ const doc2 = {
         title: 'Teams Api',
         description: 'Teams Api'
     },
-    host: 'localhost:3000',
+    host: 'https://project2-thzj.onrender.com',
     schemes: ['https']
 };
 
