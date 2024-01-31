@@ -1,8 +1,8 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "Players Api",
-    "description": "Players Api",
+    "title": "Teams Api",
+    "description": "Teams Api",
     "version": "1.0.0"
   },
   "host": "https://project2-thzj.onrender.com",
