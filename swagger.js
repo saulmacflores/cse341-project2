@@ -5,7 +5,7 @@ const doc = {
         title: 'Players Api',
         description: 'Players Api'
     },
-    host: 'localhost:3000',
+    host: 'https://project2-thzj.onrender.com',
     schemes: ['https']
 };
 

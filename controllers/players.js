@@ -12,14 +12,15 @@ const getAll = async (req, res) => {
 
 };
 
-const getSingle = async (req, res) => {
+const getSingle =  (req, res) => {
     //#swagger.tags=['Players']
     const playerId = new ObjectId(req.params.id);
-    const result = await mongodb.getDatabase().db().collection('players').find({_id: playerId});
-    result.toArray().then((players) => {
+    mongodb.getDatabase().db().collection('players').find({_id: playerId}).toArray((err, result) => {
+        if (err) {
+            res.status(400).json({message: err});
+        }
         res.setHeader('Content-Type', 'application/json');
         res.status(200).json(players[0]);
-
     });
 };
 
