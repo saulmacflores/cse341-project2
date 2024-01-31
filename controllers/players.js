@@ -20,7 +20,7 @@ const getSingle =  (req, res) => {
             res.status(400).json({message: err});
         }
         res.setHeader('Content-Type', 'application/json');
-        res.status(200).json(players[0]);
+        res.status(200).json(result[0]);
     });
 };
 
