@@ -5,7 +5,7 @@ const doc = {
         title: 'Players Api',
         description: 'Players Api'
     },
-    host: 'https://project2-thzj.onrender.com',
+    host: '://project2-thzj.onrender.com',
     schemes: ['https']
 };
 
@@ -22,7 +22,7 @@ const doc2 = {
         title: 'Teams Api',
         description: 'Teams Api'
     },
-    host: 'https://project2-thzj.onrender.com',
+    host: 'project2-thzj.onrender.com',
     schemes: ['https']
 };
 
