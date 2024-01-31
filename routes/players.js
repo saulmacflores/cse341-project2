@@ -8,7 +8,7 @@ router.get('/', playersController.getAll);
 router.get('/:id', playersController.getSingle);
 
 router.post('/', validation.savePlayer, playersController.createPlayer);
-router.put('/:id', validation.savePlater, playersController.updatePlayer);
+router.put('/:id', validation.savePlayer, playersController.updatePlayer);
 router.delete('/:id', playersController.deletePlayer);
 
 
