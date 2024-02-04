@@ -8,9 +8,9 @@ const {isAuthenticated} = require("../middleware/authenticate");
 router.get('/', playersController.getAll);
 router.get('/:id', playersController.getSingle);
 
-router.post('/', validation, isAuthenticated.savePlayer, playersController.createPlayer);
-router.put('/:id', validation, isAuthenticated.savePlayer, playersController.updatePlayer);
-router.delete('/:id',isAuthenticated.playersController.deletePlayer);
+router.post('/',  isAuthenticated, playersController.createPlayer);
+router.put('/:id',  isAuthenticated, playersController.updatePlayer);
+router.delete('/:id',isAuthenticated,playersController.deletePlayer);
 
 
 
