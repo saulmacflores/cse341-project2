@@ -1,5 +1,5 @@
 const express = require('express');
-//const bodyParser = require('body-parser')
+const bodyParser = require('body-parser')
 const mongodb = require('./data/database');
 const cors = require('cors')
 const passport = require('passport');
@@ -10,7 +10,7 @@ const GitHubStrategy = require('passport-github2').Strategy
 const port = process.env.PORT || 3000;
 const app = express();
 app
-    .use(bodyparser.json())
+    .use(bodyParser.json())
     .use(session({
         secret: "secret",
         resave: false,
